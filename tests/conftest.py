@@ -67,7 +67,7 @@ def runner():
     run = ClassicRunner()
   
   yield run
-  print(run.get_all_test_results())
+  print(run.get_all_test_results(False))
 
 
 @pytest.fixture(scope='session')
